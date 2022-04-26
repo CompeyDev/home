@@ -23,6 +23,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
         content="Hi, I'm DevComp, a JavaScript developer."
       />
       <meta
+        data-rh="true"
         property="og:image"
         content="https://files.devcomp.xyz/r/devcomp.xyz.png"
       />      
