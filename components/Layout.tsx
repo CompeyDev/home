@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 import Head from "next/head";
+import Link from 'next/link';
 
 type Props = {
   children?: ReactNode;
@@ -23,6 +24,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       />
       <meta property="og:url" content="https://devcomp.xyz" />
       <meta property="og:type" content="website" />
+      <link rel="icon" type="image/x-icon" href="https://github.com/CompeyDev.png">
     </Head>
     {children}
   </div>
