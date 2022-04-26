@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.moving_background_gradient {
+    background: url("https://media3.giphy.com/media/TM8Fu4TrgkNSmXh5cw/giphy.gif?cid=ecf05e47n1g9thynem4zkkvaymet8944m2bc9dm8s315unli&rid=giphy.gif&ct=g");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
