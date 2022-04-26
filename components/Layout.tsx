@@ -24,7 +24,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       />
       <meta property="og:url" content="https://devcomp.xyz" />
       <meta property="og:type" content="website" />
-      <link rel="icon" type="image/x-icon" href="https://github.com/CompeyDev.png">
+      <link rel="icon" type="image/x-icon" href="https://github.com/CompeyDev.png"/>
     </Head>
     {children}
   </div>
